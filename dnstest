@@ -2,6 +2,15 @@
 
 <head> 
 <title> My Personal Website </title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RP3E8QH6NX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RP3E8QH6NX');
+</script>
 </head>
 
 <body bgcolor="white" text="blue">
