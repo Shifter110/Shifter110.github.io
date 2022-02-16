@@ -32,4 +32,28 @@ h2{
   font_weight: 400;
 }
 
-.image[
+.image{
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+p{
+  font_size: 2rem;
+  color: #fff;
+  line_height: 5rem;
+  margin-bottom: 5rem;
+  
+}
+.btn{ display: inline-block;
+  padding: 2.7rem 7.5rem;
+  background: #f6f6f6;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #398f51;
+  border-radius: 10px;
+  transition: background 0.5s;
+}
+
+.btn:hover{
+  background: #dadada;
+}
