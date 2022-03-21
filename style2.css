@@ -5,9 +5,24 @@
 }
 
 img{
-  width: 250px;
+  width: 3000px;
   height:200px;
   object-fit: cover;
   object-position: bottom;
-  
+  padding: 5px;
+}
 
+element{
+  display:flex;
+  max-width:1200px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #black;
+}
+
+img:hover{
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.5s;
+}
