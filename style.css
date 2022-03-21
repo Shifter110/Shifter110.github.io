@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -5,6 +7,12 @@
 }
 .html{
   font-size: 10px;
+}
+
+.body{
+  background: url('websitebackground.png');
+  background-position: 0 1000px;
+  font-family: 'Roboto;, sans-serif;
 }
 
 .container{
