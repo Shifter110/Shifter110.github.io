@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{
+.html{
   font-size: 10px;
 }
 
@@ -15,7 +15,7 @@ html{
   text-align: center;
 }
 
-h1{
+.h1{
   color: 3398f51;
   font-size: 5rem;
   font-weight: 700;
@@ -23,7 +23,7 @@ h1{
   margin-bottom: 2rem;
 }
 
-h2{
+.h2{
   color: #777;
   font-size:4rem;
   font-weight: 400;
@@ -34,7 +34,7 @@ h2{
   margin-bottom: 5rem;
 }
 
-p{
+.p{
   font-size: 2rem;
   color: #black;
   line-height: 5rem;
