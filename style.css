@@ -24,7 +24,7 @@ body{
 }
 
 h1{
-  color: 3398f51;
+  color: #white;
   font-size: 5rem;
   font-weight: 700;
   letter-spacing: 8px;
@@ -32,7 +32,7 @@ h1{
 }
 
 h2{
-  color: #777;
+  color: #white;
   font-size:4rem;
   font-weight: 400;
 }
@@ -44,7 +44,7 @@ h2{
 
 p{
   font-size: 2rem;
-  color: #black;
+  color: #white;
   line-height: 5rem;
   margin-bottom: 5rem;
   
@@ -54,7 +54,7 @@ p{
   background: #f6f6f6;
   font-size: 2rem;
   text-decoration: none;
-  color: #398f51;
+  color: #black;
   border-radius: 10px;
   transition: background 0.5s;
 }
