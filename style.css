@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+.slideshow-container {
+  background-color: #f2f2f2;
+}
+
 .slideshow {
 	position: relative;
 	height: 300px;
