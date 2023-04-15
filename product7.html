@@ -1,0 +1,75 @@
+<html> 
+
+<head>
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X8BNGJCPZB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X8BNGJCPZB');
+</script>
+<script> 
+	function showNotAvailableMessage() {
+		alert("Function currently not available");
+	}
+	</script>
+<title>Gallery Website</title>
+<link rel="stylesheet" type="text/css" href="product1.css">
+ <meta name=description content="Everything to liven up your room, the easy way.">
+ <meta name=keywords content="metalposter,art,poster">
+ <meta name="robots" content="index,follow">
+	
+</head>
+<body>
+	<header>
+		<div class="slideshow">
+			<img src="Mirror.png" alt="Image 1">
+			<img src="Susie2.png" alt="Image 2">
+			<img src="Loud.png" alt= Image3">
+		</div>
+		<nav>
+			<ul class="taskbar">
+				<li><a href="index.html" >Home</a></li>
+				<li><a href="shop.html" class="active">Shop</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="about.html">About</a></li>
+				<li class="checkout"><a href="#" onclick="showNotAvailableMessage()">Checkout</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+    <h1>Welcome to Picturesque</h1>
+      <div class="container">
+       <div class="product">
+         <img src="purchase7.png" alt="Product 7">
+        <div class="details">
+            <h2>Doctor Lightning</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper lorem eu nunc finibus, nec suscipit nisi eleifend.</p>
+            <h3>RM19.99</h3>
+          <label for="quantity">Quantity:</label>
+         <input type="number" id="quantity" name="quantity" min="1" max="10">
+         <button>Add to cart</button>
+        </div>
+       </div>
+    </div>
+	</main>
+	<script>
+		var slideIndex = 0;
+		showSlides();
+		
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("slideshow")[0].getElementsByTagName("img");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) {slideIndex = 1}
+			slides[slideIndex-1].style.display = "block";
+			setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+	</script>
+</body>
+</html>
