@@ -14,6 +14,9 @@
 	function showNotAvailableMessage() {
 		alert("Function currently not available");
 	}
+	function showNotAvailableMessage1() {
+		alert("Item(s) have been placed in cart")
+	}
 	</script>
 <title>Gallery Website</title>
 <link rel="stylesheet" type="text/css" href="product1.css">
@@ -50,7 +53,7 @@
             <h3>RM19.99</h3>
           <label for="quantity">Quantity:</label>
          <input type="number" id="quantity" name="quantity" min="1" max="10">
-         <button>Add to cart</button>
+         <button onclick="showNotAvailableMessage1()">Add to cart</button>
         </div>
        </div>
     </div>
