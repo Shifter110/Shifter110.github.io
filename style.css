@@ -55,6 +55,17 @@ nav .checkout-btn { /* Add this block to style the checkout button */
   font-size: 16px;
 }
 
+.gallery {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 50%; /* Set the width of each image to 50% */
+    display: inline-block; /* Display the images side by side */
+	margin: 10px;
+	border-radius: 10px;
+}
 
 p{
   font-size: 2rem;
