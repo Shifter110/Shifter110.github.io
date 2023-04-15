@@ -67,6 +67,23 @@ nav .checkout-btn { /* Add this block to style the checkout button */
 	border-radius: 10px;
 }
 
+.taskbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  height: 50px;
+}
+
+.taskbar li {
+  float: left;
+}
+
+.checkout {
+  float: right;
+}
+
 p{
   font-size: 2rem;
   color: #white;
