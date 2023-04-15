@@ -1,14 +1,22 @@
-.banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
+.slideshow-container {
+  background-color: #f2f2f2;
 }
 
-.banner img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
+.slideshow {
+	position: relative;
+	height: 300px;
+	overflow: hidden;
+}
+		
+	.slideshow img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 nav {
