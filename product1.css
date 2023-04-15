@@ -91,17 +91,6 @@ h1 {
   margin-right: 20px;
 }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.gallery img {
-  margin: 10px;
-  max-width: 150px;
-}
-
 .product {
   display: flex;
   justify-content: center;
