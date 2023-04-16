@@ -100,3 +100,15 @@ h1 {
   text-align: center;
   margin-right: 20px;
 }
+
+	footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
