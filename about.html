@@ -1,0 +1,70 @@
+<html> 
+
+<head>
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X8BNGJCPZB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X8BNGJCPZB');
+</script>
+<script> 
+	function showNotAvailableMessage() {
+		alert("Function currently not available");
+	}
+	</script>
+<title>Gallery Website</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+ <meta name=description content="Everything to liven up your room, the easy way.">
+ <meta name=keywords content="metalposter,art,poster">
+ <meta name="robots" content="index,follow">
+	
+</head>
+<body>
+	<header>
+		<div class="slideshow">
+			<img src="Mirror.png" alt="Image 1">
+			<img src="Susie2.png" alt="Image 2">
+			<img src="Loud.png" alt= Image3">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="shop.html" class="active">Shop</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#" onclick="showNotAvailableMessage();">Checkout</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>About</h1>
+      <p>We are a Malaysian based company wanting to sell affordable, high-quality metal posters to hang on your walls. 
+         We have a variety of different designs with new ones all the time. Customers can even submit their own ones custom-made.
+        </p>
+		</main>
+	<script>
+		var slideIndex = 0;
+		showSlides();
+		
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("slideshow")[0].getElementsByTagName("img");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) {slideIndex = 1}
+			slides[slideIndex-1].style.display = "block";
+			setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+	</script>
+</body>
+								    <footer>
+  <div class="footer-container">
+    <p>This website is for educational purposes only. No actual product is being sold. This website is fake.</p>
+  </div>
+</footer>
+</html>
