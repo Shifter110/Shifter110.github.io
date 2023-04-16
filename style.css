@@ -50,8 +50,8 @@ nav li a:hover {
   color: black;
 }
 
-nav .checkout-btn { /* Add this block to style the checkout button */
-  margin-left: auto; /* Add this line to push the button to the right */
+nav .checkout-btn {
+  margin-left: auto;
   background-color: #4CAF50;
   border: none;
   color: white;
